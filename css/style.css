@@ -23,6 +23,7 @@ h2, h3, h4, p, a {
     padding-top: 41px;
     padding-bottom: 71px;
     max-width: 1440px;
+    max-height: 768px;
     margin: 0 auto;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
@@ -92,7 +93,7 @@ h2, h3, h4, p, a {
 }
 .border {
     height: 0.5px;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     background-color: #E6E6E6;;
 }
@@ -182,6 +183,7 @@ color: #48555B;
 .services__content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 76px;
 }
 .services__title {
@@ -314,6 +316,7 @@ color: #48555B;
 .footer__items {
     display: grid;
     grid-template-columns: 250px 262px 141px 87px;
+    justify-content: space-between;
     gap: 65px;
 }
 .footer__company {
