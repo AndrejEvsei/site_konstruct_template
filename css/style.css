@@ -27,6 +27,7 @@ h2, h3, h4, p, a {
     margin: 0 auto;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 .header__img {
     margin: 0 auto;
@@ -249,6 +250,7 @@ color: #48555B;
     margin: 0 auto;
     background-image: url(../img/bg-2.jpg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 .get__title {
     max-width: 350px;
